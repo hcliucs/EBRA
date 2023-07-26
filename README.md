@@ -47,8 +47,8 @@ cover_img=...
 DS_hide_model=...
 EBRA_model=...
 container_img=DS_hide_model(cover_img,secret_img)
-# remove
+# erase
 masked_container_img=container_img*(1-mask)
-# repaire
+# repair
 processed_container_img=EBRA_model(masked_container_img)
 ```
